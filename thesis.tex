@@ -1,0 +1,243 @@
+%
+% PhD thesis style
+% 
+% improved by Vincent X. Gong
+% with love
+%
+% October, 2019
+% http://www.gong.im
+% 
+%
+% originally created by Rudy Negenborn
+%
+% based on trail thesis style for LaTeX
+%
+% February 2008
+%
+% further info: rudy@negenborn.net
+% and: http://www.negenborn.net/mampc/
+%
+
+% How to get started? For a start:
+% * read through this file
+% * edit 0-misc/defs.tex
+% * edit 0-misc/title.tex
+% * latex thesis.tex
+% and there you have your first version
+
+\documentclass[12pt,hidelinks]{trailthesis}
+%\documentclass[a4paper,12pt]{book}
+
+
+% include the draft option to include tags in the .dvi showing were
+% overfull hboxes are located, e.g.,
+% \documentclass[10pt,draft]{trailthesis}
+
+% include the hidelinks option to remove the red box in the table of content
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% define the base directory in which your thesis files are located
+%
+%
+% NOTE WINDOWS USERS: the '\' in the Windows directory name should
+%                     be replaced by '/', so:
+%                     C:/thesis/, and not C:\thesis\
+%
+% NOTE WINDOWS USERS: make sure that you thesis files are in
+%                     a directory *without* spaces in the name,
+%                     so: C:/thesis, and not C:/My Document/My Thesis
+%
+% NOTE: make sure that the directory name ends with a '/'
+%
+%\newcommand{\basedir}{/Users/vgong/Documents/workspaces/phd_thesis/thesis_trail_vg/}
+
+%\usepackage[xetex]{hyperref}
+%\usepackage{hyperref}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% include following package to be able to have line numbers in from of
+% all text of thesis. this can be useful to include in the draft
+% version of your thesis, such that the committee members can easily
+% point out where they have remarks/suggestions/corrections.
+
+\usepackage[left,modulo]{lineno}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand\dedication[1]{%
+	\thispagestyle{empty}%
+	\vspace*{\fill}%
+	\begin{flushright}%
+		#1%
+	\end{flushright}%
+%	\vspace*{\fill}%
+%	\cleardoublepage%
+}
+\newcommand\epigraph[3][2\baselineskip]{%
+	\begin{flushright}%
+		{\rmfamily\itshape #2}%
+		\vskip 0.5\baselineskip%
+		#3%
+	\end{flushright}%
+	\vspace{#1}%
+}
+
+
+
+% include base definitions used in this thesis
+\input{0-misc/defs_base.tex}
+%\include{./0-misc/defs_base.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% include other definitions that you have defined yourself
+\input{0-misc/defs_user.tex}
+
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\frontmatter
+
+%\input{\fname{0-misc/title}}
+\include{0-misc/title}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+% here comes the preface
+
+% to make sure that from here on american hyphenation is used, include
+% the following
+
+\selectlanguage{american}
+
+\pagestyle{fancy}
+\pagenumbering{roman}
+
+% the 5 title pages defined in 0-misc/title.text have no numbers,
+% so we manually set the next page, which should have a page number, to 6
+
+\setcounter{page}{5}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\clearemptydoublepage
+%\dedication{\epigraph{I have something to say.}{}}
+\include{0-misc/dedication}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\include{0-misc/preface}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% here comes the table of contents
+
+\tableofcontents
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% reset numbering and set numbering to arabic
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% here come the main chapters
+
+% for reviewing purposes it may be useful to include line numbers.
+% (this requires \usepackage{lineno} above to be uncommented)
+\begin{linenumbers}[1]
+
+% chapter 1
+\include{1-intro/intro}
+\clearemptydoublepage 
+
+% chapter 2
+\include{2-chara/index}
+\clearemptydoublepage
+\include{6-conc/conc}
+
+%\clearemptydoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% here come the appendices, if any
+
+%\appendix
+
+%\input{\fname{A1-my_appendix/my_appendix}}
+%\include{A1-my_appendix/my_appendix}
+%\clearemptydoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% here comes the bibliography
+
+%\input{\fname{0-misc/bibliography}}
+\include{0-misc/bibliography}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% here comes the glossary (partially constructed by the commands in
+% 0-misc/lists.tex, which was included above)
+
+%\input{\fname{0-misc/glossary.tex}}
+\include{0-misc/glossary.tex}
+\clearemptydoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% here comes the summary in english
+
+%\input{\fname{0-misc/summary}}
+\include{0-misc/summary}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% here comes a summary in dutch
+
+%\input{\fname{0-misc/samenvatting}}
+\include{0-misc/samenvatting}
+\clearemptydoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% here comes the summary in other languages
+
+%\input{\fname{0-misc/summary}}
+\include{0-misc/summary_cn}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% and here comes the curriculum vitae of the author
+
+%\input{\fname{0-misc/author}}
+\include{0-misc/author}
+%\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% here comes a list with trail series phd theses. (no need to include
+% these if you are not publishing in the trail series.)
+
+% \input{\fname{0-misc/trail-series}}
+\include{0-misc/trail-series}
+%\clearemptydoublepage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% that's it!
+\end{linenumbers}
+\end{document}
+
+
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:

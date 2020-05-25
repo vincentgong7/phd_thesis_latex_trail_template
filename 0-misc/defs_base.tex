@@ -1,0 +1,50 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% define some commands for handling images in subdirectories
+
+\newcommand{\fname}[1]{\basedir#1}
+
+% command for dealing with images
+\newcommand{\imagepath}[1]{\fname{1-intro/images/#1}}
+
+
+% define note command
+
+\setlength{\marginparwidth}{30mm}
+
+\newcommand{\mynote}[1]{%
+\marginpar{\footnotesize{#1}}%
+}%
+
+% uncomment to remove remarks.
+%\renewcommand{\mynote}[1]{} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% define psfrag centering command
+\newcommand{\psfragc}[2]{%
+\psfrag{#1}[t][t]{\color[rgb]{0,0,0}%
+\setlength{\tabcolsep}{0pt}%
+\begin{tabular}{c}#2\end{tabular}}%
+}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define the bib style
+
+\usepackage[authoryear]{natbib}
+%\usepackage[]{natbib}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% adjust maximum number of columns that can be used in a matrix environment
+
+% add matrix cols
+%\setcounter{MaxMatrixCols}{30}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../2007-thesis"
+%%% End: 

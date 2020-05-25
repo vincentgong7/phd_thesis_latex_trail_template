@@ -1,0 +1,279 @@
+% define relative path to images for this .tex file
+\graphicspath{{./0-misc/images/}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% define below the title of your thesis, the subtitle, and your own name
+
+\newcommand{\thetitle}{Using Social Media to Characterise Crowds in City Events for Crowd Management} 
+\newcommand{\thesubtitle}{} 
+\newcommand{\theauthor}{Vincent\ X.\ GONG}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% First the initial page with only the title and the author name
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy} %% start page headers and footers
+\thispagestyle{empty}
+\vspace*{30mm}
+
+\begin{center}
+    \textbf{\huge \thetitle}\\[\baselineskip]\textbf{\LARGE \thesubtitle}
+\end{center}
+
+
+\vspace{40mm}
+
+\begin{center}
+    \Large\theauthor
+\end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% the back (page 2)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\thispagestyle{empty}
+
+\vspace*{\fill}
+% possibly include your logos and make acknowledgements to funding
+
+\noindent \includegraphics[width=7em]{erc.png}\hspace*{0.75cm}
+\includegraphics[width=7em]{allegro.png}\hspace*{0.75cm}
+\includegraphics[width=12.5em]{ams.png}\hspace*{0.75cm}\\
+%\noindent \includegraphics[width=21em]{logo_allegro}\\
+
+\noindent The research leading to this dissertation has received funding from the European Research Council under the European Union Horizon 2020 Framework Programme for Research and Innovation. It is established by the Scientific Council of the ERC Grant Agreement no. 669792 (Allegro).
+%\vspace*{\fill}
+
+% in case there is an illustrator info on the illustrators
+%%\vspace*{\fill}
+%%\noindent \begin{minipage}[b]{1.0\columnwidth}%
+%%\noindent Cover illustration: xxx\\
+%%Cover design: xxx \end{minipage}%
+
+%%% if this page should be empty, use the following command to
+%%% circumvent de Acrobat error message about wrong contents object
+%%% type:
+%\vspace*{\fill}
+%{\tiny .}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% on page 3 the page as required by the "pedel"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\thispagestyle{empty}
+\vspace*{30mm}
+
+\begin{center}
+     \textbf{\huge \thetitle}\\[\baselineskip]\textbf{\LARGE \thesubtitle}
+\end{center}
+
+\vspace{20mm}
+
+\begin{center}
+    \textbf{Dissertation}
+\end{center}
+%\vspace{7mm}
+\smallskip{}
+
+\selectlanguage{american}
+
+%\noindent{\Huge \textbf{Publications}}
+\begin{small}
+
+\begin{center}for the purpose of obtaining the degree of doctor\\
+\vspace{1mm}
+at Delft University of Technology\\
+\vspace{1mm}
+by the authority of the Rector Magnificus, Prof.dr.ir. T.H.J.J. van den Hagen\\
+\vspace{1mm}
+chair of the Board for Doctorates\\
+\vspace{1mm}
+to be defended publicly on\\
+\vspace{1mm}
+Friday 18th, September 2020 at 12:30 o'clock
+\vspace{1mm}
+\vspace{10mm} %5mm vertical space
+
+by
+
+\vspace{10mm}
+\textbf{\theauthor}\\
+\vspace{1mm}
+Master of Science in Computer Science\\
+\vspace{1mm}
+Delft University of Technology\\
+\vspace{1mm}
+born in Jiajiang, Sichuan
+\vspace{1mm}
+\end{center}
+
+\end{small}
+
+% ----------------------------------------------
+% Start, hidden title page for Graduate School
+
+%\newpage
+%\thispagestyle{empty}
+%\vspace*{30mm}
+%
+%\begin{center}
+%     \textbf{\huge \thetitle}\\[\baselineskip]\textbf{\LARGE \thesubtitle}
+%\end{center}
+%%\vspace{30mm}
+%%\noindent \begin{center}\begin{tabbing}
+%%\hspace*{70mm}\=\kill
+%%\noindent Independent members:\\
+%%Prof.dr.\ E.\ Simperl \> King's College London\\
+%%Dr.\ M.\ Gonzalez \> University of California, Berkeley\\
+%%Prof.dr.lr\ M.\ Van\ Steen \> University of Twente\\
+%%Prof.dr.ir\ G.J.P.M.\ Houben \> Delft University of Technology\\
+%%\end{tabbing}\end{center}
+%
+%\begin{center}
+%    \textbf{Independent members}
+%\end{center}\vspace{3mm}
+%
+%\begin{center}
+%Prof.dr. E. Simperl, King's College London\\
+%Dr. M. Gonzalez, University of California, Berkeley\\
+%Prof.dr.lr M. Van Steen, University of Twente\\
+%Prof.dr.ir G.J.P.M. Houben, Delft University of Technology\\
+%\end{center}\vspace{3mm}
+%
+%\begin{center}
+%    \textbf{Dissertation}
+%\end{center}\vspace{3mm}
+%
+%%\smallskip{}
+%
+%\selectlanguage{american}
+%
+%%\noindent{\Huge \textbf{Publications}}
+%\begin{small}
+%
+%\begin{center}for the purpose of obtaining the degree of doctor\\
+%\vspace{1mm}
+%at Delft University of Technology\\
+%\vspace{1mm}
+%by the authority of the Rector Magnificus, Prof.dr.ir. T.H.J.J. van den Hagen\\
+%\vspace{1mm}
+%chair of the Board for Doctorates\\
+%\vspace{1mm}
+%to be defended publicly on\\
+%\vspace{1mm}
+%Monday xx, Month 2020 at 00:00 o'clock
+%\vspace{1mm}
+%\vspace{4mm} %5mm vertical space
+%
+%by
+%
+%\vspace{4mm}
+%\textbf{Vincent X. Gong}\\
+%\vspace{1mm}
+%Master of Science in Computer Science\\
+%\vspace{1mm}
+%Delft University of Technology\\
+%\vspace{1mm}
+%born in Jiajiang, Sichuan
+%\vspace{1mm}
+%\end{center}
+%\end{small}
+
+% end, hidden title page for Graduate School
+% ----------------------------------------------
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% and on page 4 an overview of your review committee
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage %
+\thispagestyle{empty}
+
+\begin{small}
+
+\noindent This dissertation has been approved by the promotors.\\
+\bigskip{}
+
+\noindent Composition of the doctoral committee:
+%\smallskip{}
+\noindent \begin{flushleft}\begin{tabbing}
+\hspace*{70mm}\=\kill
+
+Rector Magnificus \> Chairperson\\
+% rem blow text until GS asks
+Prof. dr. ir.\ S. P. Hoogendoorn \> Delft University of Technology, promotor\\
+Dr. ir.\ W. Daamen \> Technische Universiteit Delft, promotor\\
+Prof. dr. ir.\ A. Bozzon \> Technische Universiteit Delft, copromotor\\
+% rem above text until GS asks
+\bigskip{}\\
+
+\noindent Independent members:\\
+% rem blow text until GS asks
+Prof. dr. ir.\ G. J. P. M.\ Houben \> Delft University of Technology\\
+Prof. dr.\ E.\ Simperl \> King's College London, United Kingdom\\
+Dr.\ M.\ Gonzalez \> University of California, Berkeley, United States\\
+Prof. dr. ir.\ M.\ Van\ Steen \> University of Twente\\
+% rem above text until GS asks
+\end{tabbing}\end{flushleft}
+
+\vspace*{\fill}
+\selectlanguage{american}
+
+% if you are publishing in the trail series, uncomment the following and include your number
+%\noindent TRAIL Thesis Series T2007/14, The Netherlands TRAIL Research School
+
+\bigskip{}
+\noindent\textbf{TRAIL Thesis Series no. T2020/xx, the Netherlands Research School TRAIL}\\
+\smallskip{}
+
+\noindent TRAIL\\
+P.O. BOX 5017\\
+2600 GA Delft\\
+The Netherlands\\
+E-mail: info@rsTRAIL.nl\\
+\bigskip{}
+
+\noindent ISBN: your-isbn-number\\
+\smallskip{}
+
+%\noindent Copyright \copyright~2020 by \theauthor\\
+\noindent Copyright \copyright~2020 by \theauthor\\
+\smallskip{}
+
+\noindent All rights reserved. No part of the material protected by this copyright notice may be reproduced or utilized in any form or by any means, electronic or mechanical, including photocopying, recording or by any information storage and retrieval system, without written permission of the author.
+
+\smallskip{}
+\noindent Printed in the Netherlands
+
+\end{small}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% the back (page 5)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newpage
+%\thispagestyle{empty}
+%
+%\vspace*{\fill}
+%\rightline{I will say something.}
+%\vspace*{\fill}
+
+% in case there is an illustrator info on the illustrators
+%%\vspace*{\fill}
+%%\noindent \begin{minipage}[b]{1.0\columnwidth}%
+%%\noindent Cover illustration: xxx\\
+%%Cover design: xxx \end{minipage}%
+
+%%% if this page should be empty, use the following command to
+%%% circumvent de Acrobat error message about wrong contents object
+%%% type:
+%\vspace*{\fill}
+%{\tiny .}
+
+
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../2007-thesis"
+%%% End: 
