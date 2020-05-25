@@ -1,2 +1,4 @@
 # phd_thesis_latex_trail_template
-The PhD thesis latex template for TRAIL
+The PhD thesis latex template for TRAIL.
+Please compile this project using: # pdfLaTex
+Contact: vincent.gong7@gmail.com
