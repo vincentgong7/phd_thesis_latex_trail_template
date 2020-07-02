@@ -1,4 +1,6 @@
-#  The PhD thesis latex template for TRAIL, the Netherlands
+#  The PhD Thesis Latex Template for TRAIL, the Netherlands
+
+![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
 
 ## Demo
 [https://bit.ly/nl_trail_phd_thesis_template](https://bit.ly/nl_trail_phd_thesis_template)
@@ -40,3 +42,6 @@ Thanks Rudy for the original version.
 vincent.gong7@gmail.com
 
 [*www.gong.im*](http://gong.im)
+
+<script type="text/javascript" src="//counter.websiteout.net/js/5/4/69/0"></script>
+<br>
