@@ -1,5 +1,7 @@
 #  The PhD Thesis Latex Template for TRAIL, the Netherlands
 
+Last update: 2nd Jul 2020
+
 ![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
 
 ## Online Overleaf Demo
