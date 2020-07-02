@@ -48,5 +48,5 @@ vincent.gong7@gmail.com
 
 [*www.gong.im*](http://gong.im)
 
-<script type="text/javascript" src="//counter.websiteout.net/js/5/4/69/0"></script>
+<script type="text/javascript" src="//counter.websiteout.net/js/5/4/0/0"></script>
 <br>
