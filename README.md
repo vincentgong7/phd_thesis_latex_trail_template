@@ -2,8 +2,13 @@
 
 ![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
 
-## Demo
+## Online Overleaf Demo
 [https://bit.ly/nl_trail_phd_thesis_template](https://bit.ly/nl_trail_phd_thesis_template)
+
+## Download link
+[https://github.com/vincentgong7/phd_thesis_latex_trail_template
+](https://github.com/vincentgong7/phd_thesis_latex_trail_template
+)
 
 ## Usage
 ### Using it on your local computer:
