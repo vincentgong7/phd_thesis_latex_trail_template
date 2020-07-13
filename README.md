@@ -2,7 +2,7 @@
 
 Last update: 2nd Jul 2020
 
-![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png =25x)
+![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
 
 ## Online Overleaf Demo
 
