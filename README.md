@@ -58,5 +58,5 @@ vincent.gong7@gmail.com
 [*www.gong.im*](http://gong.im)
 
 <script type="text/javascript" src="//counter.websiteout.net/js/5/4/0/0"></script>
-<br>
+
 <div  style="float: left;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=100&t=n&d=x1J3eElasbNDsl8xziNpBBbhxruhx-axoqnr5fptH7I'></script></div>
