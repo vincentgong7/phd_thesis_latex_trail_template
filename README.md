@@ -14,10 +14,10 @@ Last update: 2nd Jul 2020
 
 ## Usage
 ### Using it on your local computer:
-1. Download this project as zip (or Git Clone it) to your local folder.
+1. Download this project as zip (or Clone it on Git) to your local folder. You can also download it in the online Demo: Menu -> Download -> Source.
 2. Compile it with your Latex tool locally using: **pdfLaTex**
 
-### Using it on Online (Overleaf):
+### Using it online (Overleaf):
 1. Git **Fork** it to your own GitHub repositories.
 2. On your Overleaf, click **'New Project'** -> **'Import from GitHub'**. 
 3. Make sure your Overleaf has been linked with your GitHub account. It's easy.
