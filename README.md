@@ -2,12 +2,19 @@
 
 Last update: 2nd Jul 2020
 
-![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
+![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png =25x)
 
 ## Online Overleaf Demo
+
+<img src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
+
 [https://bit.ly/nl_trail_phd_thesis_template](https://bit.ly/nl_trail_phd_thesis_template)
 
 ## Download link
+
+
+<img src="https://www.quarara.com/wp-content/uploads/2020/06/GitHub.jpg" alt="drawing" width="200"/>
+
 [https://github.com/vincentgong7/phd_thesis_latex_trail_template
 ](https://github.com/vincentgong7/phd_thesis_latex_trail_template
 )
