@@ -3,7 +3,8 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
-Last update: 2nd Jul 2020
+
+## Last update: 2nd Jul 2020
 
 ![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
 
@@ -62,4 +63,4 @@ vincent.gong7@gmail.com
 
 <script type="text/javascript" src="//counter.websiteout.net/js/5/4/0/0"></script>
 <br>
-<div  style="float: left;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?d=YaYngOWcCEKsLmRFjHSW7aOPBT8ueuevDUpYlOW-7Ks&cl=ffffff&w=a'></script></div>
+<div  style="float: left;"><script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=400&t=n&d=YaYngOWcCEKsLmRFjHSW7aOPBT8ueuevDUpYlOW-7Ks'></script></div>
