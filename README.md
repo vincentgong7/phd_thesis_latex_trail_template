@@ -11,6 +11,11 @@
 
 ![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
 
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.png" alt="drawing" width="300"/>
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_title.png" alt="drawing" width="400"/>
+
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/overleaf.png" alt="drawing" height="300"/>
+
 ## Online Overleaf Demo
 
 <img src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
