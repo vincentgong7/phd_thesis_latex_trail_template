@@ -3,6 +3,10 @@
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
  [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
+## Overview
+
+**This latex template** is created for PhD students from the [Trail Research School](http://rstrail.nl/) easily organize their PhD Theis using latex. The format is checked and confirmed by Trail. If you are the PhD student struggling with the Latex problems for your Thesis, this is exactly what you need. Give us a **Star** in Github if you like it.
+
 ## Last update: 2nd Jul 2020
 
 ![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
@@ -23,11 +27,11 @@
 )
 
 ## Usage
-### Using it on your local computer:
+### Use it on your local computer:
 1. Download this project as zip (or Clone it on Git) to your local folder. You can also download it in the online Demo: Menu -> Download -> Source.
 2. Compile it with your Latex tool locally using: **pdfLaTex**
 
-### Using it online (Overleaf):
+### Use it online (Overleaf):
 1. Git **Fork** it to your own GitHub repositories.
 2. On your Overleaf, click **'New Project'** -> **'Import from GitHub'**. 
 3. Make sure your Overleaf has been linked with your GitHub account. It's easy.
@@ -45,15 +49,17 @@
 - Check the **0-misc** folder for other chapters, e.g. Preface, author, summary, summary(Dutch), and trail thesis series.
 
 ## History
-This version is revised in 2020 based on the version of Rudy Negenborn created in 2009. It is the most updated version for TRAIL. It can be compile directly without any changes.
+This version is revised in 2020 based on the version of Rudy Negenborn created in 2009. It is the most updated version for TRAIL. It can be compiled directly without any changes.
 
 You can also refer to Rudy's **readme.txt** for detail information. Note, some configuration has been removed to make the template as simple as possible.
 
 ## Credits
 
-Thanks [Bellows Wang](https://bellowswang.github.io/) for testing the project.
+Thanks **Conchita van der Stelt** from the [Trail Research School](http://rstrail.nl/) for reviewing this template.
 
-Thanks Rudy for the original version.
+Thanks **[Bellows Wang](https://bellowswang.github.io/)** for testing this project.
+
+Thanks **Rudy Negenborn** for the original version.
 
 ## Contact
 vincent.gong7@gmail.com
