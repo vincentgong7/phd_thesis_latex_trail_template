@@ -17,14 +17,20 @@ It helps? Give us a ⭐  in Github if you like it.
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/overleaf.png" alt="drawing" height="300"/>
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_title.png" alt="drawing" height="300"/>
 
-## Online Overleaf Demo
+## Online Overleaf Demo (Read-only)
 
 <img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
 
 [https://bit.ly/nl_trail_phd_thesis_template](https://bit.ly/nl_trail_phd_thesis_template)
 
-## Download link
+## Download the Latex Template
 
+You can download the latex source file in **two** ways, i.e. on the **Github repository (recommended)**, or via the online demo on **Overleaf**.
+
+- On **Github**
+	1. Visit the repository on Github (Click the **Github** link below). 
+	2. Click the "**Code**" button in Green. 
+	3. Select the "**Download ZIP**". 
 
 <img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://www.quarara.com/wp-content/uploads/2020/06/GitHub.jpg" alt="drawing" width="200"/>
 
@@ -32,21 +38,35 @@ It helps? Give us a ⭐  in Github if you like it.
 ](https://github.com/vincentgong7/phd_thesis_latex_trail_template
 )
 
+- On **Overleaf**
+	1. Visit the online read-only demo on the **Overleaf**
+	2. Click the "**Menu**" on the top-left corner of the demo page.
+	3. Click the "**Source**" below the Download section.
+
 ## Usage
 ### Use it on your local computer:
-1. Download this project as zip (or Clone it on Git) to your local folder. You can also download it in the online Demo: Menu -> Download -> Source.
+1. Download this project as a zip file (or Clone it if you are familiar with Git) to your local folder.
 2. Compile it with your Latex tool locally using: **pdfLaTex**
 
 ### Use it online (Overleaf):
-1. Git **Fork** it to your own GitHub repositories.
-2. On your Overleaf, click **'New Project'** -> **'Import from GitHub'**. 
-3. Make sure your Overleaf has been linked with your GitHub account. It's easy.
-4. Select the forked project from your GitHub repositories and import it to your Overleaf.
-5. Click **'Compile'**. The default mode should be **'pdfLaTex'**.
+There are **two** ways to set up your own thesis project based on this latex template on the Overleaf, i.e. upload the template zip file, or link it to your Github repository (for advanced user).
+
+- Create an Overleaf project by **uploading zip file**
+	1. Download the zip file of this latex template to your local folder.
+	2. In your Overleaf project page, click "**New Project**" -> "**Upload Project**"
+	3. Select the **zip file** of this latex template on your local folder and upload it.
+	4. **Recompile** it.
+
+- Create an Overleaf project by **linking to your own Github repository** (for advanced user)
+	1. Git **Fork** this project to your own GitHub repositories.
+	2. On your Overleaf, click **'New Project'** -> **'Import from GitHub'**. 
+	3. Make sure your Overleaf has been linked with your GitHub account. It's easy.
+	4. Select the forked project from your GitHub repositories and import it to your Overleaf.
+	5. Click **'Compile'**. The default mode should be **'pdfLaTex'**.
 
 #### Again, please compile this project using: pdfLaTex
 
-### Quick info
+## Quick info
 - The main latex file: **thesis.tex**.
 - The Title page file: **./0-misc/title.tex**.
 - The bibliography file (references): **references.bib**.
@@ -68,9 +88,11 @@ Thanks **[Bellows Wang](https://bellowswang.github.io/)** for testing this proje
 Thanks **Rudy Negenborn** for the original version.
 
 ## Contact
-vincent.gong7@gmail.com
+Feel free to let me know if you have any questions.
 
-[*www.Gong.im*](http://gong.im)
+💌 vincent.gong7 [at] gmail.com
+
+🌳 [*www.Gong.im*](http://gong.im)
 
 <script type="text/javascript" src="//counter.websiteout.net/js/5/4/0/0"></script>
 <br>
