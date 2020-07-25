@@ -7,7 +7,7 @@
 
 **This latex template** is created for PhD students from the [Trail Research School](http://rstrail.nl/) easily organize their PhD Theis using latex. The format is checked and confirmed by Trail. If you are the PhD student struggling with the Latex problems for your Thesis, this is exactly what you need. 
 
-It helps? Give us a ⭐ in Github if you like it.
+It helps? Give us a ⭐  in Github if you like it.
 
 ## Last update: 25th Jul 2020
 
