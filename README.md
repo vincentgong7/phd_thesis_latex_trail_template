@@ -5,27 +5,28 @@
 
 ## Overview
 
-**This latex template** is created for PhD students from the [Trail Research School](http://rstrail.nl/) easily organize their PhD Theis using latex. The format is checked and confirmed by Trail. If you are the PhD student struggling with the Latex problems for your Thesis, this is exactly what you need. Give us a **Star** in Github if you like it.
+**This latex template** is created for PhD students from the [Trail Research School](http://rstrail.nl/) easily organize their PhD Theis using latex. The format is checked and confirmed by Trail. If you are the PhD student struggling with the Latex problems for your Thesis, this is exactly what you need. 
 
-## Last update: 2nd Jul 2020
+It helps? Give us a ⭐ in Github if you like it.
 
-![Trail Phd Thesis Latex Template](/0-misc/images/project_cover.png)
+## Last update: 25th Jul 2020
 
-<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.png" alt="drawing" width="300"/>
-<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_title.png" alt="drawing" width="400"/>
+
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
 
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/overleaf.png" alt="drawing" height="300"/>
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_title.png" alt="drawing" height="300"/>
 
 ## Online Overleaf Demo
 
-<img src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
+<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
 
 [https://bit.ly/nl_trail_phd_thesis_template](https://bit.ly/nl_trail_phd_thesis_template)
 
 ## Download link
 
 
-<img src="https://www.quarara.com/wp-content/uploads/2020/06/GitHub.jpg" alt="drawing" width="200"/>
+<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://www.quarara.com/wp-content/uploads/2020/06/GitHub.jpg" alt="drawing" width="200"/>
 
 [https://github.com/vincentgong7/phd_thesis_latex_trail_template
 ](https://github.com/vincentgong7/phd_thesis_latex_trail_template
@@ -69,7 +70,7 @@ Thanks **Rudy Negenborn** for the original version.
 ## Contact
 vincent.gong7@gmail.com
 
-[*www.gong.im*](http://gong.im)
+[*www.Gong.im*](http://gong.im)
 
 <script type="text/javascript" src="//counter.websiteout.net/js/5/4/0/0"></script>
 <br>
