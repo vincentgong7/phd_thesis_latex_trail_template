@@ -9,7 +9,7 @@
 
 It helps? Give us a ⭐  in Github if you like it.
 
-## Last update: 25th Jul 2020
+## Last update: 18th Jul 2021
 
 
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
@@ -32,7 +32,7 @@ You can download the latex source file in **two** ways, i.e. on the **Github rep
 	2. Click the "**Code**" button in Green. 
 	3. Select the "**Download ZIP**". 
 
-<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://www.quarara.com/wp-content/uploads/2020/06/GitHub.jpg" alt="drawing" width="200"/>
+<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="drawing" width="200"/>
 
 [https://github.com/vincentgong7/phd_thesis_latex_trail_template
 ](https://github.com/vincentgong7/phd_thesis_latex_trail_template
@@ -70,6 +70,7 @@ There are **two** ways to set up your own thesis project based on this latex tem
 - The main latex file: **thesis.tex**.
 - The Title page file: **./0-misc/title.tex**.
 - The bibliography file (references): **references.bib**.
+- The global page margin setting: **thesis.tex, line 32, currently left=1cm, right=1cm, can be customised.**
 - Other settings: **./0-misc/defs_user.tex**.
 - The complied result: **thesis.pdf**.
 - Check the **0-misc** folder for other chapters, e.g. Preface, author, summary, summary(Dutch), and trail thesis series.
