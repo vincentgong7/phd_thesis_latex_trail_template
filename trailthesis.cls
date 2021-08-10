@@ -162,7 +162,9 @@ headsep=5mm
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Cropmark definitions for printing size
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage[a4,center,noinfo]{crop}
+% \usepackage[a4,center,noinfo]{crop}
+\usepackage[a4,center,noinfo,color=white]{crop}
+
 
 \newcommand*\crosshairsulc{% % crosshairs
 \begin{picture}(0,0)
@@ -383,4 +385,3 @@ headsep=5mm
 
 % make sure that footnotes are at the bottom of pages (under tables/figures)
 \usepackage[bottom]{footmisc}
-
