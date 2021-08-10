@@ -71,6 +71,7 @@ There are **two** ways to set up your own thesis project based on this latex tem
 - The Title page file: **./0-misc/title.tex**.
 - The bibliography file (references): **references.bib**.
 - The global page margin setting: **thesis.tex, line 32, currently left=1cm, right=1cm, can be customised.**
+- To add or remove the crop line (cutting line) of each page, change the color from **"white"** to **"black"** in line **166** of **Trailthesis.cls**.
 - Other settings: **./0-misc/defs_user.tex**.
 - The complied result: **thesis.pdf**.
 - Check the **0-misc** folder for other chapters, e.g. Preface, author, summary, summary(Dutch), and trail thesis series.
