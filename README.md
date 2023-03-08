@@ -10,7 +10,7 @@
 
 It helps? Give us a ⭐  in Github if you like it.
 
-## Last update: 18th Jul 2021
+## Last update: 8th MAR 2023
 
 
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
