@@ -11,10 +11,10 @@
 ## Last update: 5th Dec 2024
 
 
-<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/ch-x-others/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
 
-<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/overleaf.png" alt="drawing" height="300"/>
-<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_title.png" alt="drawing" height="300"/>
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/ch-x-others/images/overleaf.png" alt="drawing" height="300"/>
+<img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/ch-x-others/images/trail_thesis_title.png" alt="drawing" height="300"/>
 
 ## Online Overleaf Demo (Read-only)
 
