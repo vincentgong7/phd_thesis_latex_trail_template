@@ -1,117 +1,71 @@
 %
-% PhD thesis style
+% Trail PhD thesis style
+% Latest updated: dec 2024, version 2
 % 
-% Improved by Vincent X. Gong
-% with love, October 2019
+% Improved, tested and released on Github by Vincent X. Gong
+% with love, October 2019, 1st version, Delft
 %
-% Updated: Jul 2021
-% http://www.gong.im
-% http://https://www.gong.im/phd_thesis_latex_trail_template/
+% Latest update: Dec 2024, 2nd version, Delft
+% https://latex.gong.im
+% https://gong.im
 %
-% originally created by Rudy Negenborn
-%
+% --------------------------------------------------
+% Originally created by Rudy Negenborn
 % based on trail thesis style for LaTeX
-%
 % February 2008
-%
-% further info: rudy@negenborn.net
+% more info about Rudy: rudy@negenborn.net
 % and: http://www.negenborn.net/mampc/
 %
+% --------------------------------------------------
+% How to get a Trail Thesis PDF in 3 mins?
+% * read the README.md
+% * get started
+% Beast Wishes, Vincent, dec 2024, @Delft
+%
 
-% How to get started? For a start:
-% * read through this file
-% * edit 0-misc/defs.tex
-% * edit 0-misc/title.tex
-% * latex thesis.tex
-% and there you have your first version
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Global page setting.
+%-------------------------------
+% 
+% for production:
+\documentclass[12pt,hidelinks]{lib/trailthesis}
 
-\documentclass[12pt,hidelinks]{trailthesis}
+% for testing:
 %\documentclass[a4paper,12pt]{book}
+
+% for testing:
+% include the draft option to include tags to show the overfull hboxes
+%\documentclass[10pt,draft]{lib/trailthesis}
+
+
 \usepackage{etex}
 \usepackage{geometry}
 \geometry{left=1cm,right=1cm}
 
-
-% include the draft option to include tags in the .dvi showing were
-% overfull hboxes are located, e.g.,
-% \documentclass[10pt,draft]{trailthesis}
-
-% include the hidelinks option to remove the red box in the table of content
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% define the base directory in which your thesis files are located
-%
-%
-% NOTE WINDOWS USERS: the '\' in the Windows directory name should
-%                     be replaced by '/', so:
-%                     C:/thesis/, and not C:\thesis\
-%
-% NOTE WINDOWS USERS: make sure that you thesis files are in
-%                     a directory *without* spaces in the name,
-%                     so: C:/thesis, and not C:/My Document/My Thesis
-%
-% NOTE: make sure that the directory name ends with a '/'
-%
-%\newcommand{\basedir}{/Users/vgong/Documents/workspaces/phd_thesis/thesis_trail_vg/}
-
-%\usepackage[xetex]{hyperref}
-%\usepackage{hyperref}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% include following package to be able to have line numbers in from of
-% all text of thesis. this can be useful to include in the draft
-% version of your thesis, such that the committee members can easily
-% point out where they have remarks/suggestions/corrections.
-
-\usepackage[left,modulo]{lineno}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\newcommand\dedication[1]{%
-	\thispagestyle{empty}%
-	\vspace*{\fill}%
-	\begin{flushright}%
-		#1%
-	\end{flushright}%
-%	\vspace*{\fill}%
-%	\cleardoublepage%
-}
-\newcommand\epigraph[3][2\baselineskip]{%
-	\begin{flushright}%
-		{\rmfamily\itshape #2}%
-		\vskip 0.5\baselineskip%
-		#3%
-	\end{flushright}%
-	\vspace{#1}%
-}
-
-
 
 % include base definitions used in this thesis
-\input{0-misc/defs_base.tex}
-%\include{./0-misc/defs_base.tex}
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{config/defs_base.tex}
 
 % include other definitions that you have defined yourself
-\input{0-misc/defs_user.tex}
+\input{config/defs_user.tex}
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+% Section: Title page
+%-------------------------------
 \frontmatter
 
-%\input{\fname{0-misc/title}}
-\include{0-misc/title}
+\include{ch-x-others/title}
 \clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: General settings
+%-------------------------------
 \mainmatter
-
-% here comes the preface
 
 % to make sure that from here on american hyphenation is used, include
 % the following
@@ -125,124 +79,159 @@
 % so we manually set the next page, which should have a page number, to 6
 
 \setcounter{page}{5}
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\clearemptydoublepage
-%\dedication{\epigraph{I have something to say.}{}}
-\include{0-misc/dedication}
-\clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Dedication
+%-------------------------------
 
-
-\include{0-misc/preface}
+\clearemptydoublepage
+\include{ch-x-others/dedication}
 \clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Preface
+%-------------------------------
 
-% here comes the table of contents
+\include{ch-x-others/preface}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Table of contents
+%-------------------------------
 
 \tableofcontents
 \clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%% reset numbering and set numbering to arabic
+% Section: Adjust settings
+%-------------------------------
+%% reset page numbering and set numbering to arabic
 \pagenumbering{arabic}
 \setcounter{page}{1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% here come the main chapters
-
+% Section: Adjust settings
+%-------------------------------
 % for reviewing purposes it may be useful to include line numbers.
-% (this requires \usepackage{lineno} above to be uncommented)
+% (this requires \usepackage{lineno} in the config/defs_base.tex)
 \begin{linenumbers}[1]
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Main Chapters
+%-------------------------------
+% You can add more chapters here. To do so, copy and paste an existing 
+% sample chapter's .tex file and its corresponding image folder. 
+% This makes it easy to create and structure new chapters. 
+%
+% Naming Convention: 
+% Each chapter should follow the format "ch-n-xxx/index", where:
+% - "n" represents the chapter number,
+% - "xxx" is a short descriptor for the chapter,
+% - "index" is the main .tex file for the chapter. 
+%
+% While this naming convention is optional, it is highly recommended 
+% to maintain consistency and organization for new chapters.
+
 % chapter 1
-\include{1-intro/intro}
+\include{ch-1-intro/index}
 \clearemptydoublepage 
 
 % chapter 2
-\include{2-chara/index}
+\include{ch-2-charateristics/index}
 \clearemptydoublepage
 
-\include{6-conc/conc}
-
-%\clearemptydoublepage
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-% here come the appendices, if any
-
-%\appendix
-
-%\input{\fname{A1-my_appendix/my_appendix}}
-%\include{A1-my_appendix/my_appendix}
-%\clearemptydoublepage
+% chapter 6
+\include{ch-6-conclusion/index}
+\clearemptydoublepage
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Appendix
+%-------------------------------
 
-% here comes the bibliography
+% here come the appendixes, if any.
+% it supports multiples appendix files. Please use the 1st appendix file as a template.
 
-%\input{\fname{0-misc/bibliography}}
-\include{0-misc/bibliography}
+\appendix
+
+% config the appendix contents menu style
+\begin{appendix}
+\renewcommand{\thesection}{\Alph{section}}
+\renewcommand{\thesubsection}{\thesection.\arabic{subsection}}
+
+
+\chapter*{Appendix}
+\addcontentsline{toc}{chapter}{Appendix}
+\markboth{Appendix}{}
+
+\include{appendix/appendix-1}
+%\include{appendix/appendix-2}
+%\include{appendix/appendix-3}
+
+\end{appendix}
+
+\clearemptydoublepage
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Bibliography
+%-------------------------------
+
+% set the bibliography style
+%\bibliographystyle{plainnat} % for testing
+\bibliographystyle{lib/TRAILbib}
+
+\include{ch-x-others/bibliography}
 \clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Glossary
+%-------------------------------
 
-% here comes the glossary (partially constructed by the commands in
-% 0-misc/lists.tex, which was included above)
-
-%\input{\fname{0-misc/glossary.tex}}
-\include{0-misc/glossary.tex}
-\clearemptydoublepage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% here comes the summary in english
-
-%\input{\fname{0-misc/summary}}
-\include{0-misc/summary}
+\include{ch-x-others/glossary.tex}
 \clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% here comes a summary in dutch
+% Section: Summary in English
+%-------------------------------
 
-%\input{\fname{0-misc/samenvatting}}
-\include{0-misc/samenvatting}
+\include{ch-x-others/summary}
 \clearemptydoublepage
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% here comes the summary in other languages.
-% you can remove it if you do not want it.
 
-%\input{\fname{0-misc/summary}}
-% \include{0-misc/summary_cn}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Summary in Dutch
+%-------------------------------
+
+\include{ch-x-others/samenvatting}
+\clearemptydoublepage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Summary in Other languages
+%-------------------------------
+% Here comes the summary in other languages.
+% It can be removed if no need.
+
+% \include{ch-x-others/summary_cn}
 % \clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Section: Curriculum vitae of the author
+%-------------------------------
 
-% and here comes the curriculum vitae of the author
-
-%\input{\fname{0-misc/author}}
-\include{0-misc/author}
+\include{ch-x-others/author}
 %\clearemptydoublepage
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% here comes a list with trail series phd theses. (no need to include
-% these if you are not publishing in the trail series.)
+% Section: Trail thesis series
+%-------------------------------
 
-% \input{\fname{0-misc/trail-series}}
-\include{0-misc/trail-series}
+\include{ch-x-others/trail-series}
 %\clearemptydoublepage
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % that's it!
+
 \end{linenumbers}
 \end{document}
 
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:

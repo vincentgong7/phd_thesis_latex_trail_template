@@ -1,16 +1,14 @@
-#  The PhD Thesis Latex Template for TRAIL, The Netherlands
+#  The PhD Thesis LaTeX Template for TRAIL, The Netherlands
 
 ![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)
-[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
- [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 ## Overview
 
-**This latex template** is created for PhD students from the [Trail Research School](http://rstrail.nl/) easily organize their PhD Theis using latex. The format is checked and confirmed by Trail. If you are the PhD student struggling with the Latex problems for your Thesis, this is exactly what you need. 
+**This LaTeX template** is designed for PhD students of the [Trail Research School](http://rstrail.nl/) in the Netherlands to easily organize their PhD theses using LaTeX. The format is checked and confirmed by Trail. If you're a PhD student facing challenges with LaTeX for your thesis, this is exactly what you need!
 
-It helps? Give us a ⭐  in Github if you like it.
+💡 Enjoy using it? Give us a "like" in your theis if possible, and give us a ⭐ in Github.
 
-## Last update: 8th MAR 2023
+## Last update: 5th Dec 2024
 
 
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/0-misc/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
@@ -22,73 +20,90 @@ It helps? Give us a ⭐  in Github if you like it.
 
 <img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
 
-[https://bit.ly/nl_trail_phd_thesis_template](https://bit.ly/nl_trail_phd_thesis_template)
+[Access the demo here](https://bit.ly/nl_trail_phd_thesis_template)
 
-## Download the Latex Template
+## Download the LaTeX Template
 
-You can download the latex source file in **two** ways, i.e. on the **Github repository (recommended)**, or via the online demo on **Overleaf**.
+You can download the LaTeX source files via **GitHub (recommended)** or **Overleaf**.
 
 - On **Github**
-	1. Visit the repository on Github (Click the **Github** link below). 
-	2. Click the "**Code**" button in Green. 
-	3. Select the "**Download ZIP**". 
+<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="drawing" width="50"/>
 
-<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://1000logos.net/wp-content/uploads/2021/05/GitHub-logo.png" alt="drawing" width="200"/>
+	1. Visit the [Github repository](https://github.com/vincentgong7/phd_thesis_latex_trail_template). 
+	2. Click the green **Code** button. 
+	3. Select **Download ZIP**. 
 
-[https://github.com/vincentgong7/phd_thesis_latex_trail_template
-](https://github.com/vincentgong7/phd_thesis_latex_trail_template
-)
 
 - On **Overleaf**
-	1. Visit the online read-only demo on the **Overleaf**
-	2. Click the "**Menu**" on the top-left corner of the demo page.
-	3. Click the "**Source**" below the Download section.
+<img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="70"/>
+
+	1. Visit **[Overleaf demo ](https://bit.ly/nl_trail_phd_thesis_template)**
+	2. Click the **Menu** (top-left corner).
+	3. Select **Source** under the **Download** section.
 
 ## Usage
-### Use it on your local computer:
-1. Download this project as a zip file (or Clone it if you are familiar with Git) to your local folder.
-2. Compile it with your Latex tool locally using: **pdfLaTex**
+### Use it on your local laptop:
+1. Download the project (as a ZIP file or by cloning it via Git).
+2. Compile it using your preferred LaTeX tool, 
+	- **TeX Live** or **miKTex** for Windows
+	- **MacTex** with **Texifier** for Mac users. 
 
-### Use it online (Overleaf):
-There are **two** ways to set up your own thesis project based on this latex template on the Overleaf, i.e. upload the template zip file, or link it to your Github repository (for advanced user).
+### Use it online (Overleaf) (**Recommended**):
+Set up your thesis on Overleaf in **two** ways:
 
-- Create an Overleaf project by **uploading zip file**
-	1. Download the zip file of this latex template to your local folder.
-	2. In your Overleaf project page, click "**New Project**" -> "**Upload Project**"
-	3. Select the **zip file** of this latex template on your local folder and upload it.
+- **Option 1: Upload the ZIP File**
+	1. Download the zip file of this template to your local computer folder.
+	2. In your Overleaf project page, click **New Project** -> **Upload Project**
+	3. Select the **zip file** of this LaTeX template on your local folder and upload it.
 	4. **Recompile** it.
 
-- Create an Overleaf project by **linking to your own Github repository** (for advanced user)
-	1. Git **Fork** this project to your own GitHub repositories.
-	2. On your Overleaf, click **'New Project'** -> **'Import from GitHub'**. 
-	3. Make sure your Overleaf has been linked with your GitHub account. It's easy.
-	4. Select the forked project from your GitHub repositories and import it to your Overleaf.
-	5. Click **'Compile'**. The default mode should be **'pdfLaTex'**.
+- **Option 2: Link to GitHub (Advanced user only)**
+	1. **Fork** this project to your own GitHub repositories.
+	2. On Overleaf, click **New Project** -> **Import from GitHub**. 
+	3. Ensure your Overleaf account is linked to GitHub account. It's easy.
+	4. Select your forked repository from your GitHub repositories and import it to your Overleaf.
+	5. **Compile** the project (default mode **pdfLaTex**, important!).
 
-#### Again, please compile this project using: pdfLaTex
+#### Important, please compile this project using: pdfLaTex
 
 ## Quick info
-- The main latex file: **thesis.tex**.
-- The Title page file: **./0-misc/title.tex**.
-- The bibliography file (references): **references.bib**.
-- The global page margin setting: **thesis.tex, line 32, currently left=1cm, right=1cm, can be customised.**
-- To add or remove the crop line (cutting line) of each page, change the color from **"white"** to **"black"** in line **166** of **trailthesis.cls**.
-- Other settings: **./0-misc/defs_user.tex**.
-- The complied result: **thesis.pdf**.
-- Check the **0-misc** folder for other chapters, e.g. Preface, author, summary, summary(Dutch), and trail thesis series.
+I re-organized the folder structure for the latest update (2nd version). It is more clear and easy to use. It is strong recommended to finish reading all the following points before diving into the LaTeX files. It only takes you 5 minutes.
+
+- **Main File:** `thesis.tex` in the root folder. The output is `thesis.pdf`.
+- **Chapters:** Located in `ch-n-xxx` folders (e.g., `ch-1-introduction`), with images stored in `images` subfolders.
+- **Supporting Chapters:** Found in `ch-x-others` (i.e. titel page, dedication, preface, bibliography, glossary, summary, author introduction and trail thesis series).
+- **Appendices:** Stored in the `appendix` folder. Add multiple `.tex` files as needed.
+- **User Configurations:** Add custom LaTeX packages in `config/defs_user.tex`.
+
+Now, open `thesis.tex` and start editing your thesis!
+
+## Optional Customizations
+
+- **Add/Remove Base Packages:** Edit `config/defs_base.tex`.
+- **Adjust Margins:** Modify `\geometry{left=1cm,right=1cm}` in `thesis.tex` (line 43).
+- **Crop Lines:** Change color in `lib/trailthesis.cls` (line 167) from **"white"** to **"black"**. Only if you need.
+- **Core Files:** Located in the `lib` folder. Modify only if necessary.
+
 
 ## History
-This version is revised in 2020 based on the version of Rudy Negenborn created in 2009. It is the most updated version for TRAIL. It can be compiled directly without any changes.
+- **2007–2009:** Original version by Rudy Negenborn.
+- **2019:** Updated to meet TRAIL's new requirements; first GitHub release.
+- **2024:** Major updates to folder structure, styles, and usability.
 
-You can also refer to Rudy's **readme.txt** for detail information. Note, some configuration has been removed to make the template as simple as possible.
+It is the most updated version for TRAIL now. It can be compiled directly without any changes.
+
+**Rudy README.txt** has been archived in the folder of **historical**. Note, most of configuration has been changed to make the template as simple as possible.
 
 ## Credits
+
+Thanks **Rudy Negenborn** for the original version.
 
 Thanks **Conchita van der Stelt** from the [Trail Research School](http://rstrail.nl/) for reviewing this template.
 
 Thanks **[Bellows Wang](https://bellowswang.github.io/)** for testing this project.
 
-Thanks **Rudy Negenborn** for the original version.
+Thanks **Arjan de Ruijter** for checking the crop-line setting in more than 10 Trail theses and updating this setting.
+
 
 ## Contact
 Feel free to let me know if you have any questions.

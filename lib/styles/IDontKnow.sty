@@ -1,0 +1,40 @@
+\NeedsTeXFormat{LaTeX2e}
+%\ProvidesPackage{IDontKnow}[1995/06/19 provides \string\IDontKnow]
+%
+% to mark locations in the manuscript where some text or numbers have
+% to be added later. 
+%
+%      \IDontKnow       results in three questionmarks `???'
+%      \IDontKnow*      typesets nothing.
+%
+% A warning message occures at the place where you typed the
+% \IDontknow and at the \end{document},  unless you specify the option
+% \usepackage[NowIKnow]{IDontKnow},  then there will be errormessages,
+% but no warning at the end.
+%
+% (c) 1994-1995 Stephan I. B"ottcher,  boettcher@vxdesy.desy.de
+
+\newif\ifThereIsAnIDontKnow\ThereIsAnIDontKnowfalse
+
+\DeclareRobustCommand\IDontKnow{%
+   \IDontKnowMsg{IDontKnow}{There is an \string\IDontKnow}\IDontKnowHelp%
+   \ifThereIsAnIDontKnow\else\ifx\IDontKnowMsg\PackageError\else
+      \AtEndDocument{%
+         \PackageWarningNoLine
+           {IDontKnow}       {There was at least one \string\IDontKnow.
+           \MessageBreak      Use option  [NowIKnow]  to make them causing 
+           \MessageBreak      errormessages}}%
+  \fi\fi\global\ThereIsAnIDontKnowtrue\@ifstar{}{???}}
+
+\let\IDontKnowMsg\PackageWarning
+\let\IDontKnowHelp\relax
+\def\IDontKnowHelpText{You typed `\string\IDontKnow' to mark a location
+                       that needs further attention.}
+
+\DeclareOption{NowIKnow}{\let\IDontKnowMsg\PackageError%
+                         \let\IDontKnowHelp\IDontKnowHelpText%
+                         \ThereIsAnIDontKnowtrue}
+
+\ProcessOptions
+
+\endinput
