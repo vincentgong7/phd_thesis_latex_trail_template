@@ -20,7 +20,7 @@
 
 <img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="200"/>
 
-[Access the demo here](https://bit.ly/nl_trail_phd_thesis_template)
+[Access the demo here](https://bit.ly/nl_trail_phd_thesis_template_v2)
 
 ## Download the LaTeX Template
 
@@ -37,7 +37,7 @@ You can download the LaTeX source files via **GitHub (recommended)** or **Overle
 - On **Overleaf**
 <img style="filter: drop-shadow(5px 5px 5px #c4c2c2);" src="https://images.ctfassets.net/nrgyaltdicpt/5doLOtX69is0i6WIiY4um/6cc9be15c75155e7b93cd4823b742e44/overleaf_wide_colour_green_bg.png" alt="drawing" width="70"/>
 
-	1. Visit **[Overleaf demo ](https://bit.ly/nl_trail_phd_thesis_template)**
+	1. Visit **[Overleaf demo ](https://bit.ly/nl_trail_phd_thesis_template_v2)**
 	2. Click the **Menu** (top-left corner).
 	3. Select **Source** under the **Download** section.
 
