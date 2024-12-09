@@ -82,6 +82,7 @@ Now, open `thesis.tex` and start editing your thesis!
 - **Add/Remove Base Packages:** Edit `config/defs_base.tex`.
 - **Adjust Margins:** Modify `\geometry{left=1cm,right=1cm}` in `thesis.tex` (line 43).
 - **Crop Lines:** Change color in `lib/trailthesis.cls` (line 167) from **"white"** to **"black"**. Only if you need.
+- **Header line length on even page:** Change value in `lib/trailthesis.cls` (line 15). only if necessary.
 - **Core Files:** Located in the `lib` folder. Modify only if necessary.
 
 
