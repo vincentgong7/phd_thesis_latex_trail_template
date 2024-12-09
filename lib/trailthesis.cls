@@ -11,6 +11,8 @@
 \NeedsTeXFormat{LaTeX2e}[2007/01/01]
 \ProvidesClass{trailthesis}[2007/01/01 my PhD thesis class]
 \RequirePackage{fancyhdr}
+%\setlength{\headwidth}{\dimexpr\textwidth+\evensidemargin\relax}
+% \usepackage[headwidth=\textwidth]{geometry}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions
