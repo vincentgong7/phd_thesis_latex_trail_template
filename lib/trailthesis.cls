@@ -11,8 +11,8 @@
 \NeedsTeXFormat{LaTeX2e}[2007/01/01]
 \ProvidesClass{trailthesis}[2007/01/01 my PhD thesis class]
 \RequirePackage{fancyhdr}
-%\setlength{\headwidth}{\dimexpr\textwidth+\evensidemargin\relax}
-% \usepackage[headwidth=\textwidth]{geometry}
+% set the header line wide length: paperwidth(165mm)-left(18.5mm)
+\setlength{\headwidth}{146.5mm}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions
@@ -108,7 +108,7 @@ textheight=200mm,
 textwidth=128mm,
 top=20mm,
 left=18.5mm,
-headsep=5mm
+headsep=5mm,
 ]{geometry}
 
 % move from center
