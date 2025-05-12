@@ -5,14 +5,14 @@
 %% Date:        01 Feb 2007
 %% %%
 %% Adjusted by Rudy Negenborn, 24 May 2007
-%% Adjusted by Vincent X. Gong, 01 Dec 2024
+%% Adjusted by Vincent X. Gong, 13 April 2025
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \NeedsTeXFormat{LaTeX2e}[2007/01/01]
-\ProvidesClass{trailthesis}[2007/01/01 my PhD thesis class]
+\ProvidesClass{lib/trailthesis}[2007/01/01 my PhD thesis class]
 \RequirePackage{fancyhdr}
-% set the header line wide length: paperwidth(165mm)-left(18.5mm)
-\setlength{\headwidth}{146.5mm}
+% set the header line wide length
+\setlength{\headwidth}{160mm}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions
@@ -23,6 +23,8 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[american,dutch]{babel}
 
+% added by Alphonse, Apr 2025
+\usepackage{etex}
 
 \usepackage{graphicx}
 %\DeclareGraphicsExtensions{.pstex}
@@ -101,14 +103,28 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Layout definition for TRAIL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \usepackage[
+% paperheight=240mm,
+% paperwidth=165mm,
+% textheight=200mm,
+% textwidth=128mm,
+% top=20mm,
+% left=18.5mm,
+% headsep=5mm,
+% ]{geometry}
+
 \usepackage[
 paperheight=240mm,
-paperwidth=165mm,
-textheight=200mm,
-textwidth=128mm,
-top=20mm,
-left=18.5mm,
-headsep=5mm,
+paperwidth=160mm,
+textheight=232mm,
+textwidth=150mm,
+top=-3.7mm,
+headsep=9mm,
+left=0mm,
+right=0mm,
+% footskip=1mm,
+bottom=-1mm,
+footnotesep=5mm
 ]{geometry}
 
 % move from center
