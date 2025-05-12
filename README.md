@@ -8,7 +8,7 @@
 
 💡 Enjoy using it? Give us a "like" in your theis if possible, and give us a ⭐ in Github.
 
-## Last update: 5th Dec 2024
+## Last update: 13th April 2025
 
 
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/ch-x-others/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
@@ -60,18 +60,18 @@ Set up your thesis on Overleaf in **two** ways:
 - **Option 2: Link to GitHub (Advanced user only)**
 	1. **Fork** this project to your own GitHub repositories.
 	2. On Overleaf, click **New Project** -> **Import from GitHub**. 
-	3. Ensure your Overleaf account is linked to GitHub account. It's easy.
+	3. Ensure your Overleaf account is linked to a GitHub account. It's easy.
 	4. Select your forked repository from your GitHub repositories and import it to your Overleaf.
 	5. **Compile** the project (default mode **pdfLaTex**, important!).
 
 #### Important, please compile this project using: pdfLaTex
 
 ## Quick info
-I re-organized the folder structure for the latest update (2nd version). It is more clear and easy to use. It is strong recommended to finish reading all the following points before diving into the LaTeX files. It only takes you 5 minutes.
+I reorganised the folder structure for the latest update (2nd version). It is clearer and easier to use. It is strongly recommended to finish reading all the following points before diving into the LaTeX files. It only takes you 5 minutes.
 
 - **Main File:** `thesis.tex` in the root folder. The output is `thesis.pdf`.
 - **Chapters:** Located in `ch-n-xxx` folders (e.g., `ch-1-introduction`), with images stored in `images` subfolders.
-- **Supporting Chapters:** Found in `ch-x-others` (i.e. titel page, dedication, preface, bibliography, glossary, summary, author introduction and trail thesis series).
+- **Supporting Chapters:** Found in `ch-x-others` (i.e. title page, dedication, preface, bibliography, glossary, summary, author introduction and trail thesis series).
 - **Appendices:** Stored in the `appendix` folder. Add multiple `.tex` files as needed.
 - **User Configurations:** Add custom LaTeX packages in `config/defs_user.tex`.
 
@@ -90,10 +90,11 @@ Now, open `thesis.tex` and start editing your thesis!
 - **2007–2009:** Original version by Rudy Negenborn.
 - **2019:** Updated to meet TRAIL's new requirements; first GitHub release.
 - **2024:** Major updates to folder structure, styles, and usability.
+- **2025:** Minor updates to styles and usability.
 
-It is the most updated version for TRAIL now. It can be compiled directly without any changes.
+It is the most updated version of TRAIL now. It can be compiled directly without any changes.
 
-**Rudy README.txt** has been archived in the folder of **historical**. Note, most of configuration has been changed to make the template as simple as possible.
+**Rudy README.txt** has been archived in the folder of **historical**. Note, most of the configuration has been changed to make the template as simple as possible.
 
 ## Credits
 
