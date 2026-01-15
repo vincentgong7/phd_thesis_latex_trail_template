@@ -6,9 +6,9 @@
 
 **This LaTeX template** is designed for PhD students of the [Trail Research School](http://rstrail.nl/) in the Netherlands to easily organize their PhD theses using LaTeX. The format is checked and confirmed by Trail. If you're a PhD student facing challenges with LaTeX for your thesis, this is exactly what you need!
 
-💡 Enjoy using it? Give us a "like" in your theis if possible, and give us a ⭐ in Github.
+�� Enjoy using it? Give us a "like" in your thesis if possible, and give us a ⭐ in Github.
 
-## Last update: 13th April 2025
+## Last update: 15th Jan 2026
 
 
 <img src="https://raw.githubusercontent.com/vincentgong7/phd_thesis_latex_trail_template/master/ch-x-others/images/trail_thesis_cover.jpg" alt="drawing" width="780"/>
@@ -94,7 +94,7 @@ Now, open `thesis.tex` and start editing your thesis!
 
 It is the most updated version of TRAIL now. It can be compiled directly without any changes.
 
-**Rudy README.txt** has been archived in the folder of **historical**. Note, most of the configuration has been changed to make the template as simple as possible.
+**Rudy README.txt** has been archived in the folder of **historical**. Note: most of the configuration has been changed to make the template as simple as possible.
 
 ## Credits
 
@@ -110,9 +110,9 @@ Thanks **Arjan de Ruijter** for checking the crop-line setting in more than 10 T
 ## Contact
 Feel free to let me know if you have any questions.
 
-💌 vincent.gong7 [at] gmail.com
+�� vincent.gong7 [at] gmail.com
 
-🌳 [*www.Gong.im*](http://gong.im)
+�� [*www.Gong.im*](http://gong.im)
 
 <script type="text/javascript" src="//counter.websiteout.net/js/5/4/0/0"></script>
 <br>
