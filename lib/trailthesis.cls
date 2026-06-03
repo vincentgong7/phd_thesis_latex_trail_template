@@ -11,8 +11,6 @@
 \NeedsTeXFormat{LaTeX2e}[2007/01/01]
 \ProvidesClass{lib/trailthesis}[2007/01/01 my PhD thesis class]
 \RequirePackage{fancyhdr}
-% set the header line wide length
-\setlength{\headwidth}{160mm}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions
@@ -24,12 +22,12 @@
 \usepackage[american,dutch]{babel}
 
 % added by Alphonse, Apr 2025
-\usepackage{etex}
+\RequirePackage{etex}
 
 \usepackage{graphicx}
 %\DeclareGraphicsExtensions{.pstex}
 
-
+\usepackage{etex}
 \usepackage{color}
 \usepackage{psfrag}
 \usepackage{amsmath}
@@ -103,29 +101,22 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Layout definition for TRAIL
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% \usepackage[
-% paperheight=240mm,
-% paperwidth=165mm,
-% textheight=200mm,
-% textwidth=128mm,
-% top=20mm,
-% left=18.5mm,
-% headsep=5mm,
-% ]{geometry}
+
 
 \usepackage[
 paperheight=240mm,
-paperwidth=160mm,
-textheight=232mm,
-textwidth=150mm,
+paperwidth=165mm,
 top=-3.7mm,
+bottom=-1mm,
 headsep=9mm,
 left=0mm,
 right=0mm,
 % footskip=1mm,
-bottom=-1mm,
 footnotesep=5mm
 ]{geometry}
+
+% set the header line wide length
+\setlength{\headwidth}{165mm}
 
 % move from center
 %\addtolength{\oddsidemargin}{0.5cm}
@@ -321,7 +312,6 @@ footnotesep=5mm
             linkcolor=black,
             menucolor=darkblue,
             anchorcolor=red,
-            pagecolor=cyan,
 %  colorlinks=false,  % set for print version
 %  pdfpagemode=None,  % PDF-Viewer startet ohne Inhaltsverzeichnis et.al.
 	    pdfstartview=FitH, % PDF-Viewer benutzt beim Start bestimmte 
